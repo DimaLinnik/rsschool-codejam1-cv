@@ -12,3 +12,30 @@ h1,h2,h3,h4,h5{
 .photo-wrapper{
     max-width: 512px ;
 }
+.about-me{
+    max-width: 512px;
+    margin-bottom: 45px
+}
+.opac-image{
+    position:absolute;
+    top:-200px; 
+    left: -250px;
+}
+
+.opac-image img{
+    height: 1500px;
+    width: 1500px;
+    opacity: 0.25;
+    z-index: 1;
+}
+.about-me{
+    z-index: 2;
+}
+
+h1{
+    font-size: 5em;    
+}
+p{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 1em;
+}
